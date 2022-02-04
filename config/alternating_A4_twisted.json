@@ -1,0 +1,32 @@
+{
+	"name": "Thom spectrum over classifying space of alternating group A4",
+	"classes": {
+		"u": {
+			"degree": 2,
+			"Sq1": ["v", "w"],
+			"Sq2": ["uu"],
+			"Sq4": "0"
+		},
+		"v": {
+			"degree": 3,
+			"Sq1": ["uu"],
+			"Sq2": ["uw"],
+			"Sq4": "0"
+		},
+		"w": {
+			"degree": 3,
+			"Sq1": ["uu"],
+			"Sq2": ["uv"],
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": "0",
+			"Sq2": ["Uu"],
+			"Sq4": "0"
+		}
+	},
+	"relations": {
+		"uuu": ["vw", "vv", "ww"]
+	}
+}

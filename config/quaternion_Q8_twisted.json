@@ -1,0 +1,41 @@
+{
+	"name": "Thom spectrum over classifying space of quaternion group Q8 x Z2",
+	"note": "w1 = x, w2 = 0",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": ["xx"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"y": {
+			"degree": 1,
+			"Sq1": ["yy"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"z": {
+			"degree": 1,
+			"Sq1": ["zz"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"p": {
+			"degree": 4,
+			"Sq1": "0",
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+
+		"U": {
+			"degree": 0,
+			"Sq1": ["Ux"],
+			"Sq2": "0",
+			"Sq4": "0"
+		}
+	},
+	"relations": {
+		"xx": ["xy", "yy"],
+		"xxx": "0"
+	}
+}

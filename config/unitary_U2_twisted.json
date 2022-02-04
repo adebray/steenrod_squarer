@@ -1,0 +1,25 @@
+{
+	"name": "Thom spectrum over classifying space of unitary group U2",
+	"note": "w2 = a, w3 = b",
+	"classes": {
+		"a": {
+			"degree": 2,
+			"Sq1": ["b"],
+			"Sq2": ["aa"],
+			"Sq4": "0"
+		},
+		"b": {
+			"degree": 3,
+			"Sq1": "0",
+			"Sq2": ["ab"],
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": "0",
+			"Sq2": ["Ua"],
+			"Sq4": "0"
+		}
+	},
+	"relations": {}
+}

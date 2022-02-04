@@ -1,0 +1,40 @@
+{
+	"name": "Classifying space of Isanowa group",
+	"note": "w1 = c, w2 = cc",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": "0",
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"c": {
+			"degree": 1,
+			"Sq1": ["cc"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"e": {
+			"degree": 3,
+			"Sq1": "0",
+			"Sq2": ["cce", "xk"],
+			"Sq4": "0"
+		},
+		"k": {
+			"degree": 4,
+			"Sq1": "0",
+			"Sq2": "0",
+			"Sq4": ["kk"]
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Uc"],
+			"Sq2": ["Ucc"]
+		}
+	},
+	"relations": {
+		"xx": "0",
+		"ee": "0",
+		"xcc": "0"
+	}
+}

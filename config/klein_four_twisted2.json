@@ -1,0 +1,26 @@
+{
+	"name": "classifying space of Klein-four group",
+	"note": "w1 = x, w2 = x^2",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": ["xx"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"y": {
+			"degree": 1,
+			"Sq1": ["yy"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Ux"],
+			"Sq2": ["Uxx"],
+			"Sq4": "0"
+		}
+
+	},
+	"relations": {}
+}

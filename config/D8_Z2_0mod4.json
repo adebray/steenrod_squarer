@@ -1,0 +1,41 @@
+{
+	"name": "Twisted D_{2n} x Z/2, n = 0 mod 4",
+	"note": "w1 = z, w2 = w + x^2",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": ["xx"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"y": {
+			"degree": 1,
+			"Sq1": ["yy"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"w": {
+			"degree": 2,
+			"Sq1": ["wx"],
+			"Sq2": ["ww"],
+			"Sq4": "0"
+		},
+
+		"z": {
+			"degree": 1,
+			"Sq1": ["zz"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Uz"],
+			"Sq2": ["Uw", "Uxx", "Uzz"],
+			"Sq4": "0"
+		}
+
+	},
+	"relations": {
+		"xy": ["yy"]
+	}
+}

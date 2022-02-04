@@ -1,0 +1,34 @@
+{
+	"name": "quaternion group Q16 of order 16",
+	"classes": {
+		"p": {
+			"degree": 1,
+			"Sq1": ["pp"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"q": {
+			"degree": 1,
+			"Sq1": ["qq"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"r": {
+			"degree": 4,
+			"Sq1": "0",
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Up"],
+			"Sq2": ["Upp"]
+		}
+	},
+	"__relations": {},
+	"relations": {
+		"ppp": "0",
+		"pq": ["qq"],
+		"qqqq": "0"
+	}
+}

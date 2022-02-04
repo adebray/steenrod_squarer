@@ -1,0 +1,41 @@
+{
+	"name": "Classifying space of semidihedral group D_{2n}, n = 0 mod 4",
+	"note": "w1 = g, w2 = 0",
+	"classes": {
+		"e": {
+			"degree": 1,
+			"Sq1": ["ee"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"g": {
+			"degree": 1,
+			"Sq1": ["gg"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"h": {
+			"degree": 3,
+			"Sq1": "0",
+			"Sq2": ["ek", "gk", "ggh"],
+			"Sq4": "0"
+		},
+		"k": {
+			"degree": 4,
+			"Sq1": "0",
+			"Sq2": ["eek", "ggk"],
+			"Sq4": ["kk"]
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Ug"],
+			"Sq2": "0"
+		}
+	},
+	"relations": {
+		"eg": ["ee"],
+		"eh": "0",
+		"eee": "0",
+		"hh": ["eek", "ggk"]
+	}
+}

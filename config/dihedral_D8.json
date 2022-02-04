@@ -1,0 +1,27 @@
+{
+	"name": "Classifying space of dihedral group D_{2n}, n = 0 mod 4",
+	"note": "w1 = x, w2 = 0",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": ["xx"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"y": {
+			"degree": 1,
+			"Sq1": ["yy"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"w": {
+			"degree": 2,
+			"Sq1": ["wx"],
+			"Sq2": ["ww"],
+			"Sq4": "0"
+		}
+	},
+	"relations": {
+		"xy": ["yy"]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "quaternion group Q16 of order 16",
+	"classes": {
+		"x": {
+			"degree": 1,
+			"Sq1": ["xx"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"y": {
+			"degree": 1,
+			"Sq1": ["yy"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"z": {
+			"degree": 4,
+			"Sq1": "0",
+			"Sq2": "0",
+			"Sq4": "0"
+		}
+	},
+	"relations": {
+		"xy": ["yy"],
+		"xxx": "0",
+		"yyyy": "0"
+	}
+}
