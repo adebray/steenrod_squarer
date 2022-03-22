@@ -1,0 +1,112 @@
+# commented-out lines are linearly dependent with free summands already accounted for
+
+Ua generates an A(1) summand ending in Ua²cd + Ua²be
+
+Ua³ generates an A(1) summand ending in Ua⁴cd + Ua⁴be + Ua⁷c + Ua⁶e
+
+Ua²b generates an A(1) summand ending in Ua⁶bc + Ua⁵cd + Ua⁵be + Ua⁴de + Ua⁶b² + Ua⁴d²
+
+Ubd generates an A(1) summand ending in Ubd²e + Ucd³
+# Ube generates an A(1) summand ending in Ubd²e + Ucd³
+# Ucd generates an A(1) summand ending in Ubd²e + Ucd³
+Uce generates an A(1) summand ending in Ucde² + Ube³
+Ua²d generates an A(1) summand ending in Ua⁶cd + Ua⁵de + Ua⁶bd + Ua⁵d²
+Ua²e generates an A(1) summand ending in Ua⁶cd + Ua⁶be
+Uab² generates an A(1) summand ending in Ua²b³e + Ua²d²e + Ua²b²cd + Ua⁵b²c + Ua⁴b²e + Ua³cd²
+# Uabc generates an A(1) summand ending in Ua²b³e + Ua²d²e + Ua²b²cd + Ua⁵b²c + Ua⁴b²e + Ua³cd²
+Uac² generates an A(1) summand ending in Ua²e³ + Ua²c³d + Ua²bc²e + Ua⁵c³ + Ua⁴c²e + Ua³ce²
+# Ua³b generates an A(1) summand ending in Ua⁶cd + Ua⁵de + Ua⁶bd + Ua⁵d²
+# Ua³c generates an A(1) summand ending in Ua⁶cd + Ua⁶be
+# Ua⁵ generates an A(1) summand ending in Ua⁶cd + Ua⁶be
+
+Uabd generates an A(1) summand ending in Ua²b²de + Ua²bcd² + Uabd²e + Uacd³ + Ua⁵bcd + Ua⁴cd² + Ua⁴bde + Ua³d²e
+# Uabe generates an A(1) summand ending in Ua⁵bcd + Ua⁴cd² + Ua⁴bde + Ua³d²e + Ua²b²de + Ua²bcd² + Uabd²e + Uacd³
+# Uacd generates an A(1) summand ending in Ua⁵bcd + Ua⁴cd² + Ua⁴bde + Ua³d²e + Ua²b²de + Ua²bcd² + Uabd²e + Uacd³
+Uace generates an A(1) summand ending in Uacde² + Uabe³ + Ua⁵c²e + Ua³e³ + Ua⁵c²d + Ua⁵bce + Ua⁴cde + Ua⁴be² + Ua²c²de + Ua²c²d² + Ua²bce² + Ua²b²e²
+Ub³ generates an A(1) summand ending in Uabd²e + Uacd³ + Ud³e + Ua⁴b³c + Ua³b²cd + Ua³b³e + Ua²b²de + Ua²bcd² + Ua⁴b⁴ + Ud⁴
+Ubc² generates an A(1) summand ending in Uabe³ + Uacde² + Ude³ + Ud²e² + Ua⁴bc³ + Ua³c³d + Ua³bc²e + Ua²c²de + Ua²bce² + Ua⁴b²c² + Ua²c²d² + Ua²b²e²
+
+Uad² generates an A(1) summand ending in Ua²bd²e + Ua²cd³ + Ua⁵cd² + Ua⁴d²e
+# Uade generates an A(1) summand ending in Ua⁵cd² + Ua⁴d²e + Ua²bd²e + Ua²cd³
+Uae² generates an A(1) summand ending in Ua²cde² + Ua²be³ + Ua⁵ce² + Ua⁴e³
+Ub²d generates an A(1) summand ending in Uad³e + Uad⁴ + Ua⁴b²cd + Ua³b²de + Ua²cd³ + Ua⁴b³d + Ua³b²d² + Ua²bd³
+Ub²e generates an A(1) summand ending in Ua⁴b³e + Ua²bd²e + Ua⁴b²cd + Ua²cd³
+Ubce generates an A(1) summand ending in Uade³ + Ua⁴bc²e + Ua³c²de + Ua²be³ + Ua⁴bc²d + Ua³c²d² + Ua²bde² + Uad²e²
+Uc²d generates an A(1) summand ending in Uade³ + Ua⁴c³d + Ua³c²de + Ua²cde² + Ua⁴bc²d + Ua³c²d² + Ua²bde² + Uad²e²
+# Uc²e generates an A(1) summand ending in Ua⁴c³d + Ua²cde² + Ua⁴bc²e + Ua²be³
+# Ua²bd generates an A(1) summand ending in Ua²bd²e + Ua²cd³ + Ua⁵cd² + Ua⁴d²e
+# Ua²be generates an A(1) summand ending in Ua⁵cd² + Ua⁴d²e + Ua²bd²e + Ua²cd³
+# Ua²cd generates an A(1) summand ending in Ua⁵cd² + Ua⁴d²e + Ua²bd²e + Ua²cd³
+# Ua²ce generates an A(1) summand ending in Ua²cde² + Ua²be³ + Ua⁵ce² + Ua⁴e³
+# Uab³ generates an A(1) summand ending in Uad³e + Ua⁴b²cd + Ua³b²de + Ua²cd³ + Ua⁴b³d + Ua³b²d² + Ua²bd³ + Uad⁴
+# Uab²c generates an A(1) summand ending in Ua⁴b³e + Ua²bd²e + Ua⁴b²cd + Ua²cd³
+# Uabc² generates an A(1) summand ending in Uade³ + Ua⁴c³d + Ua³c²de + Ua²cde² + Ua⁴bc²d + Ua³c²d² + Ua²bde² + Uad²e²
+# Uac³ generates an A(1) summand ending in Ua⁴c³d + Ua²cde² + Ua⁴bc²e + Ua²be³
+# Ua³b² generates an A(1) summand ending in Ua⁵cd² + Ua⁴b³e + Ua⁴d²e + Ua⁴b²cd
+# Ua³bc generates an A(1) summand ending in Ua⁵cd² + Ua⁴b³e + Ua⁴d²e + Ua⁴b²cd
+# Ua³c² generates an A(1) summand ending in Ua⁵ce² + Ua⁴e³ + Ua⁴c³d + Ua⁴bc²e
+Ua⁷ generates an A(1) summand ending in Ua⁸cd + Ua⁸be + Ua^{11}c + Ua^{10}e
+
+# below this line, I have not checked linear dependence at all
+Ubd² generates an A(1) summand ending in Ua⁴bcd² + Ua³cd³ + Ua³bd²e + Ua²d³e + Ua⁴b²d² + Ua²d⁴
+Ubde generates an A(1) summand ending in Ua⁴b²de + Ua⁴bcd² + Ua³cd³ + Ua³bd²e
+Ube² generates an A(1) summand ending in Ua⁴bce² + Ua³cde² + Ua³be³ + Ua²de³ + Ua⁴b²e² + Ua²d²e²
+Ucde generates an A(1) summand ending in Ua⁴c²de + Ua²de³ + Ua⁴c²d² + Ua²d²e²
+Uabcd generates an A(1) summand ending in Ua⁴b²de + Ua⁴bcd² + Ua³cd³ + Ua³bd²e
+Uabce generates an A(1) summand ending in Ua⁴c²de + Ua⁴c²d² + Ua⁴bce² + Ua³cde² + Ua³be³ + Ua⁴b²e²
+# Ua³bd generates an A(1) summand ending in Ua⁴b²de + Ua⁴bcd² + Ua³bd²e + Ua³cd³
+# Ua³be generates an A(1) summand ending in Ua⁴b²de + Ua⁴bcd² + Ua³bd²e + Ua³cd³
+# Ua³cd generates an A(1) summand ending in Ua⁴b²de + Ua⁴bcd² + Ua³bd²e + Ua³cd³
+Ua³ce generates an A(1) summand ending in Ua³cde² + Ua³be³ + Ua⁴c²de + Ua⁴c²d² + Ua⁴bce² + Ua⁴b²e²
+Ua²b³ generates an A(1) summand ending in Ua⁴bcd² + Ua³cd³ + Ua³bd²e + Ua²d³e + Ua⁴b²d² + Ua²d⁴
+Ua²bc² generates an A(1) summand ending in Ua⁴bce² + Ua³cde² + Ua³be³ + Ua²de³ + Ua⁴b²e² + Ua²d²e²
+Ua⁶b generates an A(1) summand ending in Ua^{10}bc + Ua⁹cd + Ua⁹be + Ua⁸de + Ua^{10}b² + Ua⁸d²
+Ud³ generates an A(1) summand ending in Ua⁴cd³ + Ua³d³e + Ua⁴bd³ + Ua³d⁴
+Ud²e generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ude² generates an A(1) summand ending in Ua⁴cde² + Ua³de³ + Ua⁴bde² + Ua³d²e²
+
+Ue³ generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Uabd² generates an A(1) summand ending in Ua⁴cd³ + Ua³d³e + Ua⁴bd³ + Ua³d⁴
+Uabde generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Uabe² generates an A(1) summand ending in Ua⁴cde² + Ua³de³ + Ua⁴bde² + Ua³d²e²
+Uacd² generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Uacde generates an A(1) summand ending in Ua⁴cde² + Ua³de³ + Ua⁴bde² + Ua³d²e²
+Uace² generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Ub³d generates an A(1) summand ending in Ub³d²e + Ud⁴e + Ub²cd³ + Ua³b²cd² + Ua²b²d²e + Uacd⁴
+Ub³e generates an A(1) summand ending in Ua³b²cd² + Ua²b²d²e + Uacd⁴ + Ub³d²e + Ud⁴e + Ub²cd³
+Ub²cd generates an A(1) summand ending in Ub³d²e + Ud⁴e + Ub²cd³ + Ua³b²cd² + Ua²b²d²e + Uacd⁴
+Ub²ce generates an A(1) summand ending in Ub³e³ + Ud²e³ + Ub²cde² + Ua³b²ce² + Ua²b²e³ + Uacd²e²
+Ubc²d generates an A(1) summand ending in Ud²e³ + Ubc²d²e + Uc³d³ + Ua³c³d² + Ua²c²d²e + Uacd²e²
+Ubc²e generates an A(1) summand ending in Ua³c³d² + Ua²c²d²e + Uacd²e² + Ud²e³ + Ubc²d²e + Uc³d³
+Uc³d generates an A(1) summand ending in Ua³c³d² + Ua²c²d²e + Uacd²e² + Ud²e³ + Ubc²d²e + Uc³d³
+Uc³e generates an A(1) summand ending in Ua³c³e² + Ua²c²e³ + Uace⁴ + Ue⁵ + Uc³de² + Ubc²e³
+Ua³d² generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua³de generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua³e² generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Ua²b²d generates an A(1) summand ending in Ua⁴cd³ + Ua³d³e + Ua⁴bd³ + Ua³d⁴
+Ua²b²e generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua²bcd generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua²bce generates an A(1) summand ending in Ua⁴cde² + Ua³de³ + Ua⁴bde² + Ua³d²e²
+Ua²c²d generates an A(1) summand ending in Ua⁴cde² + Ua³de³ + Ua⁴bde² + Ua³d²e²
+Ua²c²e generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Uab⁴ generates an A(1) summand ending in Ua²b⁵e + Ua²b⁴cd
+Uab³c generates an A(1) summand ending in Ua²b⁵e + Ua²b⁴cd
+Uab²c² generates an A(1) summand ending in Ua³c³d² + Ua³b²ce² + Ua²b³c²e + Ua²c²d²e + Ua²b²e³ + Ua²b²c³d
+Uabc³ generates an A(1) summand ending in Ua³c³d² + Ua³b²ce² + Ua²b³c²e + Ua²c²d²e + Ua²b²e³ + Ua²b²c³d
+Uac⁴ generates an A(1) summand ending in Ua²c⁵d + Ua²bc⁴e
+Ua⁴bd generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua⁴be generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua⁴cd generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua⁴ce generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Ua³b³ generates an A(1) summand ending in Ua³d³e + Ua⁴cd³ + Ua⁴bd³ + Ua³d⁴
+Ua³b²c generates an A(1) summand ending in Ua⁴bd²e + Ua⁴cd³
+Ua³bc² generates an A(1) summand ending in Ua³de³ + Ua⁴cde² + Ua⁴bde² + Ua³d²e²
+Ua³c³ generates an A(1) summand ending in Ua⁴cde² + Ua⁴be³
+Ua⁶d generates an A(1) summand ending in Ua^{10}cd + Ua⁹de + Ua^{10}bd + Ua⁹d²
+Ua⁶e generates an A(1) summand ending in Ua^{10}cd + Ua^{10}be
+Ua⁵b² generates an A(1) summand ending in Ua⁶b³e + Ua⁶d²e + Ua⁶b²cd + Ua⁹b²c + Ua⁸b²e + Ua⁷cd²
+Ua⁵bc generates an A(1) summand ending in Ua⁹b²c + Ua⁸b²e + Ua⁷cd² + Ua⁶b³e + Ua⁶d²e + Ua⁶b²cd
+Ua⁵c² generates an A(1) summand ending in Ua⁶e³ + Ua⁶c³d + Ua⁶bc²e + Ua⁹c³ + Ua⁸c²e + Ua⁷ce²
+Ua⁷b generates an A(1) summand ending in Ua^{10}cd + Ua⁹de + Ua^{10}bd + Ua⁹d²
+Ua⁷c generates an A(1) summand ending in Ua^{10}cd + Ua^{10}be
+Ua⁹ generates an A(1) summand ending in Ua^{10}cd + Ua^{10}be

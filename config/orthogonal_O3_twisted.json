@@ -1,0 +1,31 @@
+{
+	"name": "Thom spectrum over classifying space of orthogonal group OB",
+	"note": "w1 = a, w2 = b",
+	"classes": {
+		"a": {
+			"degree": 1,
+			"Sq1": ["aa"],
+			"Sq2": "0",
+			"Sq4": "0"
+		},
+		"b": {
+			"degree": 2,
+			"Sq1": ["ab", "c"],
+			"Sq2": ["bb"],
+			"Sq4": "0"
+		},
+		"c": {
+			"degree": 3,
+			"Sq1": ["ac"],
+			"Sq2": ["bc"],
+			"Sq4": "0"
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": ["Ua"],
+			"Sq2": ["Ub"],
+			"Sq4": "0"
+		}
+	},
+	"relations": {}
+}

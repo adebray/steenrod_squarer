@@ -447,6 +447,21 @@ def validate(cohomology_info: dict):
 			print("\033[33mError: 'relations' not specified in config file. Even if the cohomology ring is free, please supply an empty dict\033[0m", file=sys.stderr)
 	# more to come
 
+def the_deg(x: str) -> int:
+	if x == 'a': return 1
+	if x == 'b' or x == 'c': return 2
+	if x == 'd' or x == 'e': return 3
+	else:
+		print('This wasn\'t supposed to happen, x = %s' % x)
+	
+def sum_deg(x: str) -> int:
+	return sum(map(the_deg, x))
+
+# true if total degree 9 or less
+# quick n dirty helper fn
+def not_too_big(s: str) -> bool:
+	return sum_deg(s) <= 9
+
 def main():
 	if len(sys.argv) < 2:
 		print("\033[33mError: please specify cohomology via config file.\033[0m")
@@ -465,11 +480,23 @@ def main():
 	# ok, we've now loaded the cohomology information, let's validate it
 	validate(coh_info)
 
+	too_many_tuples = list(list(itertools.combinations_with_replacement('abcde', k)) for k in range(12))
+	flattened_tuples = list(p for q in too_many_tuples for p in q)
+	
+	how_many = collections.Counter(sum_deg(x) for x in flattened_tuples)
+#	print(how_many)
+
+	all_tuples = sorted(list(filter(not_too_big, flattened_tuples)), key=sum_deg)
+
+	to_test = ['U' + ''.join(mon) for mon in all_tuples]
+
+#	to_test = ['U' + ''.join(mon) for k in range(10) for mon in list.sort(list(filter(not_too_big, itertools.combinations_with_replacement('abcde', k))), key=lambda x: sum(map(the_deg, ''.join(x))))]
+
 
 	#for i in range(1, 10):
 	#	print('Sq^1(x^%d) = %s' % (i, str(sq1_mono(monomial(['x']*i)))))
 	#	print('Sq^2(x^%d) = %s' % (i, str(sq2_mono(monomial(['x']*i)))))
-#	to_test = ['U' + 'x'*(n-i) + 'y'*i for n in range(0, 6) for i in range(n+1)]
+#	to_test = ['U' + 'a'*(n-i) + 'b'*i for n in range(0, 6) for i in range(n+1)]
 #	to_test = ["U",
 #			   "Ux", "Uy",
 #			   "Uw", "Uxx", "Uyy",
@@ -483,13 +510,13 @@ def main():
 	#	'Uxxx', 'Uyyy', 'Uzzz', 'Uxxz', 'Uxzz', 'Uyyz', 'Uyzz', 'Uwx', 'Uwy', 'Uwz']
 	#to_test = ['Uaaabb', 'Uabbbb']
 
-	#identify_A1_summands(map(str_to_poly, to_test))
+#	identify_A1_summands(map(str_to_poly, to_test))
 	#print(generates_an_A1(str_to_poly('Uaaaaabbbb') + str_to_poly('Uabbbbbbbb')
 	#))
 	#identify_Joker_summands(map(str_to_poly, to_test))
 	#print(generates_an_A1(str_to_poly('Uaaaaaaabb') + str_to_poly('Uaaaaabbbb'))[0])
 	
-	compute_span_of({str_to_poly('Uy')
+	compute_span_of({str_to_poly('Uaaa')
 	})
 
 

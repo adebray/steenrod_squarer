@@ -1,0 +1,36 @@
+{
+	"name": "Thom spectrum over classifying space of SU(8)/{\\pm 1}",
+	"classes": {
+		"a": {
+			"degree": 1,
+			"Sq1": ["aa"],
+			"Sq2": "0"
+		},
+		"b": {
+			"degree": 2,
+			"Sq1": ["ab", "d"],
+			"Sq2": ["bb"]
+		},
+		"c": {
+			"degree": 2,
+			"Sq1": ["ac", "e"],
+			"Sq2": ["cc"]
+		},
+		"d": {
+			"degree": 3,
+			"Sq1": ["ad"],
+			"Sq2": ["bd"]
+		},
+		"e": {
+			"degree": 3,
+			"Sq1": ["ae"],
+			"Sq2": ["ce", "cd", "be"]
+		},
+		"U": {
+			"degree": 0,
+			"Sq1": "0",
+			"Sq2": ["Uc"]
+		}
+	},
+	"relations": {}
+}
